@@ -1,25 +1,25 @@
 Product.delete_all
-Product.create!(title: 'Hancock Building Postcard',
+Product.create!(title: 'Hyde Park Art',
   description:
     %{<p>
-Postcard featuring the John Hancock building
+Postcard featuring Hyde Park Art
       </p>},
-  image_url:   'hancock.jpg',
+  image_url:   'hydeart.jpg',
   price: 10)
 # . . .
-Product.create!(title: 'Sears/Willis Tower Postcard',
+Product.create!(title: 'Skyline',
   description:
     %{<p>
-A postcard featuring the Sears/Wills  Tower
+A postcard featuring the Chicago Skyline
       </p>},
-image_url: 'sears.jpg',
+  image_url: 'searssky.jpg',
   price: 10)
 # . . .
 
-Product.create!(title: 'Trump Tower Postcard',
+Product.create!(title: 'Lake Michigan from Hyde Park',
   description:
     %{<p>
-A postcard featuring the Trump Tower
+A postcard featuring Lake Michigan
       </p>},
-  image_url: 'trump1.jpg',
+  image_url: 'hyde.jpg',
   price: 10)

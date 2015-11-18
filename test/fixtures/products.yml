@@ -11,3 +11,11 @@ two:
   description: MyText
   image_url: MyString
   price: 9.99
+
+ruby:
+  title:      Skyline
+  description:
+   Postcard featuring Chicago Skyline
+  price:       10
+  image_url:   searssky.jpg
+
